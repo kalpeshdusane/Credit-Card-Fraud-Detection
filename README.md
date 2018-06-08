@@ -45,6 +45,8 @@ There are 4 ways of addressing class imbalance problems like these:
 Out of 4 methods mentioned above, here we use **SMOTE: Synthetic Minority Over-sampling Technique**.
 Here is the [[link]](http://rikunert.com/SMOTE_explained) where it is explained thoroughly.
 
+![SMOTE_Image](readmeImage/SMOTE.jpg)
+
 To implement SMOTE we use `imblearn` package. (Here is the [[link]](http://contrib.scikit-learn.org/imbalanced-learn/stable/generated/imblearn.over_sampling.SMOTE.html) for further detail to how to use the package)
 
 ## Approaches
