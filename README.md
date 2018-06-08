@@ -2,6 +2,8 @@
 
 Our task is to solve the Problem given in Kaggle as [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
+[![Build Status][travis-image]][travis-url]
+
 ## DataSet Overview
 
 The datasets contain credit card transactions of European cardholders over a two day collection period in September 2013.
@@ -75,3 +77,7 @@ To implement SMOTE we use `imblearn` package. (Here is the [[link]](http://contr
 	sklearn
 	pandas
 	imblearn
+
+<!-- Markdown link & img dfn's -->
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
