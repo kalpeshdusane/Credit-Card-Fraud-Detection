@@ -20,10 +20,32 @@ This dataset has 492 frauds out of 284,807 transactions means we have uneven dis
 
 ![Image](readmeImage/dataset.png)
 
+**File:** `DataSet_creditcardfraud.zip`
+
 ## Evaluation
 
 Due to class imbalance ratio, accuracy is measured using the Area Under the **Precision-Recall Curve(AUPRC)**.
 > Confusion matrix accuracy is not meaningful for unbalanced classification.
+
+## OverSampling
+
+To resolve an issue of the unbalanced dataset, we use oversampling techniques.
+
+>**From Wikipedia:** The usual reason for oversampling is to correct for a bias in the original dataset. One scenario where it is useful is when training a classifier using labeled training data from a biased source since labeled training data is valuable but often comes from un-representative sources.
+
+There are 4 ways of addressing class imbalance problems like these:
+
+1. Synthesis of new minority class instances
+2. Over-sampling of a minority class
+3. Under-sampling of the majority class
+4. tweak the cost function to make misclassification of minority instances more important than misclassification of majority instances
+
+![ImbalancedClasses_Image](readmeImage/ImbalancedClasses.jpg)
+
+Out of 4 methods mentioned above, here we use **SMOTE: Synthetic Minority Over-sampling Technique**.
+Here is the [[link]](http://rikunert.com/SMOTE_explained) where it is explained thoroughly.
+
+To implement SMOTE we use `imblearn` package. (Here is the [[link]](http://contrib.scikit-learn.org/imbalanced-learn/stable/generated/imblearn.over_sampling.SMOTE.html) for further detail to how to use the package)
 
 ## Approaches
 
