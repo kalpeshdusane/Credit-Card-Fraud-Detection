@@ -16,7 +16,33 @@ This dataset contains 30 features which include details of time and amount of th
 >**Objective:** Here our task is to find out given transaction is it fraudulent or not? 
 
 This is binary classification problem. 
-This dataset has 492 frauds out of 284,807 transactions means we have uneven distribution as fraud class accounts for only 0.172% of all transactions. Thus this dataset is highly unbalanced.
+This dataset has 492 frauds out of 284,807 transactions means we have uneven distribution as fraud class accounts for only 0.172% of all transactions. Thus this *dataset is highly **unbalanced***.
+
+![Image](readmeImage/dataset.png)
+
+## Evaluation
+
+Due to class imbalance ratio, accuracy is measured using the Area Under the **Precision-Recall Curve(AUPRC)**.
+> Confusion matrix accuracy is not meaningful for unbalanced classification.
+
+## Approaches
+
+### 1. Logistic Regression
+
+**code:** `Logistic_Regression.py`
+
+### 2. SVM (Support Vector Machine)
+
+**code:** `SVM.py`
+
+### 3. Neural Network
+
+**code:** `NeuralNet.py`
+
+### 4. Random Forest
+
+**code:** `Random_Forest.py`
+
 
 ## Dependencies
 
