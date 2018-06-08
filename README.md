@@ -17,7 +17,7 @@ This dataset contains 30 features which include details of time and amount of th
 
 >**Objective:** Here our task is to find out given transaction is it fraudulent or not? 
 
-This is binary classification problem. 
+This is **Binary Classification Problem**. 
 This dataset has 492 frauds out of 284,807 transactions means we have uneven distribution as fraud class accounts for only 0.172% of all transactions. Thus this *dataset is highly **unbalanced***.
 
 ![Image](readmeImage/dataset.png)
