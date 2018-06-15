@@ -55,19 +55,19 @@ To implement SMOTE we use `imblearn` package. (Here is the [[link]](http://contr
 
 ### 1. Logistic Regression
 
-**code:** `Logistic_Regression.py`
+**code:** [`Logistic_Regression.py`](https://github.com/kalpeshdusane/Credit-Card-Fraud-Detection/blob/master/code/Logistic_Regression.py)
 
 ### 2. SVM (Support Vector Machine)
 
-**code:** `SVM.py`
+**code:** [`SVM.py`](https://github.com/kalpeshdusane/Credit-Card-Fraud-Detection/blob/master/code/SVM.py)
 
 ### 3. Neural Network
 
-**code:** `NeuralNet.py`
+**code:** [`NeuralNet.py`](https://github.com/kalpeshdusane/Credit-Card-Fraud-Detection/blob/master/code/NeuralNet.py)
 
 ### 4. Random Forest
 
-**code:** `Random_Forest.py`
+**code:** [`Random_Forest.py`](https://github.com/kalpeshdusane/Credit-Card-Fraud-Detection/blob/master/code/Random_Forest.py)
 
 
 ## Dependencies
