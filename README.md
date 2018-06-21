@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Detection
+# Credit Card Fraud Detection System
 
 >Our task is to solve the Problem given in Kaggle as [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
